@@ -6,7 +6,8 @@
 
 # Base code from Ilvonen and Suhonen. 2016. Royal Society Open Science.
 # https://royalsocietypublishing.org/doi/10.1098/rsos.160421#RSOS160421C28
-# Searches for phylogenetic signals in phenotypic traits of using Pagel's λ
+
+###############################################################
 
 # Clear memory
 rm(list=ls())
@@ -26,7 +27,7 @@ library(phylolm)
 library(nlme)
 library(caper)
 
-# Load opdb
+# Load data
 #tree <- read.tree("odonataphylogeny.txt")
 opdb <- read.csv("opdb.csv", header = TRUE, sep = ",", dec = ",")
 #compare <- read.csv("comparativespeciesdata.txt", header = TRUE, sep = ";", dec = ",")
