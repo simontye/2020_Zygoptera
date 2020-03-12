@@ -8,6 +8,9 @@
 # https://royalsocietypublishing.org/doi/10.1098/rsos.160421#RSOS160421C28
 # Searches for phylogenetic signals in phenotypic traits of using Pagel's λ
 
+# Clear memory
+rm(list=ls())
+
 # Set working directory (with the tree file and datamatrix)
 setwd("/Users/simontye/Documents/Research/Projects/Zygoptera/2020_Zygoptera")
 
@@ -23,58 +26,54 @@ library(phylolm)
 library(nlme)
 library(caper)
 
-# Load phylogenetic tree
-tree <- read.tree("odonataphylogeny.txt")
-
-# Load data
-data <- read.csv("speciesdata.txt", header = TRUE, sep = ";", dec = ",")
-data2 <- read.csv("comparativespeciesdata.txt", header = TRUE, sep = ";", dec = ",")
+# Load opdb
+#tree <- read.tree("odonataphylogeny.txt")
+opdb <- read.csv("opdb.csv", header = TRUE, sep = ",", dec = ",")
+#compare <- read.csv("comparativespeciesdata.txt", header = TRUE, sep = ";", dec = ",")
 
 ###############################################################
-### XXX
+### # Search for phylogenetic signals in phenotypic traits using Pagel's λ
 ###############################################################
 
-# Phylogenetical signal of weight
-weight <- data[,1]
-names(weight) <- rownames(data)
-phylosig(tree, weight, method = "lambda", test = TRUE, nsim = 999)
+# Phylogenetical signal of A
+A <- opdb[,1]
+names(A) <- rownames(opdb)
+phylosig(tree, A, method = "lambda", test = TRUE, nsim = 999)
 
-# Phylogenetical signal of encapsulation
-encapsulation <- data[,2]
-names(encapsulation) <- rownames(data)
-phylosig(tree, encapsulation, method = "lambda", test = TRUE, nsim = 999)
+# Phylogenetical signal of B
+B <- opdb[,2]
+names(B) <- rownames(opdb)
+phylosig(tree, B, method = "lambda", test = TRUE, nsim = 999)
 
-# Phylogenetical signal of gregarines
-gregarines <- data[,3]
-names(gregarines) <- rownames(data)
-phylosig(tree, gregarines, method = "lambda", test=TRUE, nsim=999)
+# Phylogenetical signal of C
+C <- opdb[,3]
+names(C) <- rownames(opdb)
+phylosig(tree, C, method = "lambda", test=TRUE, nsim=999)
 
-# Phylogenetical signal of water mites
-watermites <- data[,4]
-names(watermites) <- rownames(data)
-phylosig(tree, watermites, method = "lambda", test = TRUE, nsim = 999)
-
-
+# Phylogenetical signal of D
+D <- opdb[,4]
+names(D) <- rownames(opdb)
+phylosig(tree, D, method = "lambda", test = TRUE, nsim = 999)
 
 ###############################################################
-### Phylogenetic generalized linear models of 22 different odonate species and their variables
+### Phylogenetic generalized linear models of X odonate species and their traits
 ###############################################################
 
 #Comparative dataset
-cdat <- comparative.data(data = data2, phy = tree, names.col = "Species", vcv = TRUE)
+cdat <- comparative.opdb(opdb = compare, phy = tree, names.col = "Species", vcv = TRUE)
 
 # Creating different datasets
-weight        <- data2$Weight
-encapsulation <- data2$Encapsulation
-gregarines    <- data2$Gregarines
-watermites    <- data2$Watermites
+weight        <- compare$Weight
+encapsulation <- compare$Encapsulation
+gregarines    <- compare$Gregarines
+watermites    <- compare$Watermites
 
 # PGLS models between two different variables
 logweightencapsulation.pgls  <- pgls(log(weight) ~ encapsulation, cdat)
 logweightgregarines.pgls     <- pgls(log(weight) ~ gregarines, cdat)
 logweightwatermites.pgls     <- pgls(log(weight) ~ watermites, cdat)
 encapsulationgregarines.pgls <- pgls(encapsulation ~ gregarines, cdat) 
-encapsulationwatermites.pgls <-pgls(encapsulation~watermites, cdat)
+encapsulationwatermites.pgls <- pgls(encapsulation~watermites, cdat)
 gregarineswatermites.pgls    <- pgls(gregarines~watermites, cdat)
 
 # Summary of the different PGLS models
