@@ -26,14 +26,38 @@ library(phytools)
 library(phylolm)
 library(nlme)
 library(caper)
+library(phylotaR)
+library('ctv')
+
+# Update major phylogenetics packages
+update.views('Phylogenetics')
+
+# Other
+#install.packages("treeman") # No longer on CRAN and required for phylotaR?
+#devtools::install_github(repo='ropensci/phylotaR', build_vignettes=TRUE)
+install.packages("phylotaR")
 
 # Load data
-#tree <- read.tree("odonataphylogeny.txt")
-opdb <- read.csv("opdb.csv", header = TRUE, sep = ",", dec = ",")
-#compare <- read.csv("comparativespeciesdata.txt", header = TRUE, sep = ";", dec = ",")
+tree    <- read.tree("coen_coi.tree")
+opdb    <- read.csv("opdb.csv", header = TRUE, sep = ",", dec = ",")
+compare <- read.csv("comparativespeciesdata.txt", header = TRUE, sep = ";", dec = ",")
 
 ###############################################################
-### # Search for phylogenetic signals in phenotypic traits using Pagel's λ
+### Create odonate phylogeny
+###############################################################
+
+wd      <- 'PATH TO WD'
+ncbi_dr <- 'PATH TO NCBI BLAST TOOLS'
+txid    <- 9443
+
+# Set up working directory
+setUp(wd = wd, txid = txid, ncbi_dr = ncbi_dr)
+
+# Run pipeline
+run(wd = wd)
+
+###############################################################
+### Search for phylogenetic signals in phenotypic traits using Pagel's λ
 ###############################################################
 
 # Phylogenetical signal of A

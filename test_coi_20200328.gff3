@@ -1,0 +1,103 @@
+##sequence-region AFP19428.1 1 150
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=257042
+AFP19428.1	Genbank	region	1	150	.	+	.	ID=AFP19428.1:1..150;Dbxref=taxon:257042;Name=MT;collected-by=Pushparaj Karthika;collection-date=10-Jan-2012;country=India: Coimbatore Wetlands;gbkey=Src;genome=mitochondrion;identified-by=Dr. C.Gunasekaran;lat-lon=11.0000 N 77.0000 E;mol_type=unassigned;specimen-voucher=BUZOO-Od-Cs
+AFP19428.1	Genbank	region	1	150	.	+	.	ID=id-AFP19428.1:1..150;end_range=150,.;gbkey=Prot;partial=true;start_range=.,1
+AFP19428.1	Genbank	region	1	149	.	+	.	ID=id-AFP19428.1:1..149;Dbxref=CDD:294196;Note=Heme-copper oxidase subunit I.  Heme-copper oxidases are transmembrane protein complexes in the respiratory chains of prokaryotes and mitochondria which catalyze the reduction of O2 and simultaneously pump protons across the membrane.  The superfamily is ...;end_range=149,.;gbkey=Region;partial=true
+AFP19428.1	Genbank	region	1	141	.	+	.	ID=id-AFP19428.1:1..141;Dbxref=CDD:278541;Note=Cytochrome C and Quinol oxidase polypeptide I;end_range=141,.;gbkey=Region;partial=true
+
+##sequence-region AFP19427.1 1 208
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1168620
+AFP19427.1	Genbank	region	1	208	.	+	.	ID=AFP19427.1:1..208;Dbxref=taxon:1168620;Name=MT;collected-by=Pushparaj Karthika;collection-date=10-Jan-2012;country=India: Coimbatore Wetlands;gbkey=Src;genome=mitochondrion;identified-by=Dr. C.Gunasekaran;lat-lon=11.0000 N 77.0000 E;mol_type=unassigned;specimen-voucher=BUZOO-Od-Aj
+AFP19427.1	Genbank	region	1	208	.	+	.	ID=id-AFP19427.1:1..208;end_range=208,.;gbkey=Prot;partial=true;start_range=.,1
+AFP19427.1	Genbank	region	1	208	.	+	.	ID=id-AFP19427.1:1..208-2;Dbxref=CDD:294196;Note=Heme-copper oxidase subunit I.  Heme-copper oxidases are transmembrane protein complexes in the respiratory chains of prokaryotes and mitochondria which catalyze the reduction of O2 and simultaneously pump protons across the membrane.  The superfamily is ...;end_range=208,.;gbkey=Region;partial=true
+AFP19427.1	Genbank	region	1	206	.	+	.	ID=id-AFP19427.1:1..206;Dbxref=CDD:278541;Note=Cytochrome C and Quinol oxidase polypeptide I;end_range=206,.;gbkey=Region;partial=true
+AFP19427.1	Genbank	region	51	51	.	+	.	ID=id-AFP19427.1:51..138;Dbxref=CDD:238461;Note=D-pathway;gbkey=Site;is_ordered=true;part=1/7
+AFP19427.1	Genbank	region	62	62	.	+	.	ID=id-AFP19427.1:51..138;Dbxref=CDD:238461;Note=D-pathway;gbkey=Site;is_ordered=true;part=2/7
+AFP19427.1	Genbank	region	69	69	.	+	.	ID=id-AFP19427.1:51..138;Dbxref=CDD:238461;Note=D-pathway;gbkey=Site;is_ordered=true;part=3/7
+AFP19427.1	Genbank	region	72	72	.	+	.	ID=id-AFP19427.1:51..138;Dbxref=CDD:238461;Note=D-pathway;gbkey=Site;is_ordered=true;part=4/7
+AFP19427.1	Genbank	region	127	128	.	+	.	ID=id-AFP19427.1:51..138;Dbxref=CDD:238461;Note=D-pathway;gbkey=Site;is_ordered=true;part=5/7
+AFP19427.1	Genbank	region	134	134	.	+	.	ID=id-AFP19427.1:51..138;Dbxref=CDD:238461;Note=D-pathway;gbkey=Site;is_ordered=true;part=6/7
+AFP19427.1	Genbank	region	138	138	.	+	.	ID=id-AFP19427.1:51..138;Dbxref=CDD:238461;Note=D-pathway;gbkey=Site;is_ordered=true;part=7/7
+
+##sequence-region AFP19426.1 1 228
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1148302
+AFP19426.1	Genbank	region	1	228	.	+	.	ID=AFP19426.1:1..228;Dbxref=taxon:1148302;Name=MT;collected-by=Pushparaj Karthika;collection-date=10-Jan-2012;country=India: Coimbatore Wetlands;gbkey=Src;genome=mitochondrion;identified-by=Dr. C.Gunasekaran;lat-lon=11.0000 N 77.0000 E;mol_type=unassigned;specimen-voucher=BUZOO-Od-Bg
+AFP19426.1	Genbank	region	1	228	.	+	.	ID=id-AFP19426.1:1..228;end_range=228,.;gbkey=Prot;partial=true;start_range=.,1
+AFP19426.1	Genbank	region	1	225	.	+	.	ID=id-AFP19426.1:1..225;Dbxref=CDD:294196;Note=Heme-copper oxidase subunit I.  Heme-copper oxidases are transmembrane protein complexes in the respiratory chains of prokaryotes and mitochondria which catalyze the reduction of O2 and simultaneously pump protons across the membrane.  The superfamily is ...;end_range=225,.;gbkey=Region;partial=true
+AFP19426.1	Genbank	region	6	226	.	+	.	ID=id-AFP19426.1:6..226;Dbxref=CDD:278541;Note=Cytochrome C and Quinol oxidase polypeptide I;end_range=226,.;gbkey=Region;partial=true
+AFP19426.1	Genbank	region	11	11	.	+	.	ID=id-AFP19426.1:11..159;Dbxref=CDD:238461;Note=D-pathway;gbkey=Site;is_ordered=true;part=1/8
+AFP19426.1	Genbank	region	72	72	.	+	.	ID=id-AFP19426.1:11..159;Dbxref=CDD:238461;Note=D-pathway;gbkey=Site;is_ordered=true;part=2/8
+AFP19426.1	Genbank	region	83	83	.	+	.	ID=id-AFP19426.1:11..159;Dbxref=CDD:238461;Note=D-pathway;gbkey=Site;is_ordered=true;part=3/8
+AFP19426.1	Genbank	region	90	90	.	+	.	ID=id-AFP19426.1:11..159;Dbxref=CDD:238461;Note=D-pathway;gbkey=Site;is_ordered=true;part=4/8
+AFP19426.1	Genbank	region	93	93	.	+	.	ID=id-AFP19426.1:11..159;Dbxref=CDD:238461;Note=D-pathway;gbkey=Site;is_ordered=true;part=5/8
+AFP19426.1	Genbank	region	148	149	.	+	.	ID=id-AFP19426.1:11..159;Dbxref=CDD:238461;Note=D-pathway;gbkey=Site;is_ordered=true;part=6/8
+AFP19426.1	Genbank	region	155	155	.	+	.	ID=id-AFP19426.1:11..159;Dbxref=CDD:238461;Note=D-pathway;gbkey=Site;is_ordered=true;part=7/8
+AFP19426.1	Genbank	region	159	159	.	+	.	ID=id-AFP19426.1:11..159;Dbxref=CDD:238461;Note=D-pathway;gbkey=Site;is_ordered=true;part=8/8
+
+##sequence-region AFP19425.1 1 217
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=342751
+AFP19425.1	Genbank	region	1	217	.	+	.	ID=AFP19425.1:1..217;Dbxref=taxon:342751;Name=MT;collected-by=Pushparaj Karthika;collection-date=10-Jan-2012;country=India: Coimbatore Wetlands;gbkey=Src;genome=mitochondrion;identified-by=Dr. C.Gunasekaran;lat-lon=11.0000 N 77.0000 E;mol_type=unassigned;specimen-voucher=BUZOO-Od-Dt
+AFP19425.1	Genbank	region	1	217	.	+	.	ID=id-AFP19425.1:1..217;end_range=217,.;gbkey=Prot;partial=true;start_range=.,1
+AFP19425.1	Genbank	region	1	216	.	+	.	ID=id-AFP19425.1:1..216;Dbxref=CDD:278541;Note=Cytochrome C and Quinol oxidase polypeptide I;end_range=216,.;gbkey=Region;partial=true
+AFP19425.1	Genbank	region	1	216	.	+	.	ID=id-AFP19425.1:1..216-2;Dbxref=CDD:294196;Note=Heme-copper oxidase subunit I.  Heme-copper oxidases are transmembrane protein complexes in the respiratory chains of prokaryotes and mitochondria which catalyze the reduction of O2 and simultaneously pump protons across the membrane.  The superfamily is ...;end_range=216,.;gbkey=Region;partial=true
+AFP19425.1	Genbank	region	1	1	.	+	.	ID=id-AFP19425.1:1..149;Dbxref=CDD:238461;Note=D-pathway;gbkey=Site;is_ordered=true;part=1/8
+AFP19425.1	Genbank	region	62	62	.	+	.	ID=id-AFP19425.1:1..149;Dbxref=CDD:238461;Note=D-pathway;gbkey=Site;is_ordered=true;part=2/8
+AFP19425.1	Genbank	region	73	73	.	+	.	ID=id-AFP19425.1:1..149;Dbxref=CDD:238461;Note=D-pathway;gbkey=Site;is_ordered=true;part=3/8
+AFP19425.1	Genbank	region	80	80	.	+	.	ID=id-AFP19425.1:1..149;Dbxref=CDD:238461;Note=D-pathway;gbkey=Site;is_ordered=true;part=4/8
+AFP19425.1	Genbank	region	83	83	.	+	.	ID=id-AFP19425.1:1..149;Dbxref=CDD:238461;Note=D-pathway;gbkey=Site;is_ordered=true;part=5/8
+AFP19425.1	Genbank	region	138	139	.	+	.	ID=id-AFP19425.1:1..149;Dbxref=CDD:238461;Note=D-pathway;gbkey=Site;is_ordered=true;part=6/8
+AFP19425.1	Genbank	region	145	145	.	+	.	ID=id-AFP19425.1:1..149;Dbxref=CDD:238461;Note=D-pathway;gbkey=Site;is_ordered=true;part=7/8
+AFP19425.1	Genbank	region	149	149	.	+	.	ID=id-AFP19425.1:1..149;Dbxref=CDD:238461;Note=D-pathway;gbkey=Site;is_ordered=true;part=8/8
+
+##sequence-region ACY09583.1 1 159
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=683872
+ACY09583.1	Genbank	region	1	159	.	+	.	ID=ACY09583.1:1..159;Dbxref=taxon:683872,BOLD:DIMC095-09.COI-5P;Name=MT;collected-by=J.Straka%2C J.Cossey;collection-date=25-Jul-2008;country=Canada: Alberta%2C Waterton%2C Waterton Lakes Nat. Park - Cameron Lake%2C Wet meadow/roadside;gbkey=Src;genome=mitochondrion;lat-lon=49.023 N 114.045 W;mol_type=unassigned;specimen-voucher=BIOUG<CAN>:DS-Test-095
+ACY09583.1	Genbank	region	1	159	.	+	.	ID=id-ACY09583.1:1..159;end_range=159,.;gbkey=Prot;partial=true;start_range=.,1
+ACY09583.1	Genbank	region	1	159	.	+	.	ID=id-ACY09583.1:1..159-2;Dbxref=CDD:294196;Note=Heme-copper oxidase subunit I.  Heme-copper oxidases are transmembrane protein complexes in the respiratory chains of prokaryotes and mitochondria which catalyze the reduction of O2 and simultaneously pump protons across the membrane.  The superfamily is ...;end_range=159,.;gbkey=Region;partial=true
+ACY09583.1	Genbank	region	12	159	.	+	.	ID=id-ACY09583.1:12..159;Dbxref=CDD:278541;Note=Cytochrome C and Quinol oxidase polypeptide I;end_range=159,.;gbkey=Region;partial=true
+
+##sequence-region ACY09539.1 1 219
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=411064
+ACY09539.1	Genbank	region	1	219	.	+	.	ID=ACY09539.1:1..219;Dbxref=taxon:411064,BOLD:DIMC092-09.COI-5P;Name=MT;collected-by=J.Straka;collection-date=24-Jul-2008;country=Canada: Alberta%2C Waterton%2C Waterton Lakes Nat. Park - Hwy 6%2C Roadside meadow;gbkey=Src;genome=mitochondrion;lat-lon=49.12 N 113.849 W;mol_type=unassigned;specimen-voucher=BIOUG<CAN>:DS-Test-092
+ACY09539.1	Genbank	region	1	219	.	+	.	ID=id-ACY09539.1:1..219;end_range=219,.;gbkey=Prot;partial=true;start_range=.,1
+ACY09539.1	Genbank	region	1	219	.	+	.	ID=id-ACY09539.1:1..219-2;Dbxref=CDD:294196;Note=Heme-copper oxidase subunit I.  Heme-copper oxidases are transmembrane protein complexes in the respiratory chains of prokaryotes and mitochondria which catalyze the reduction of O2 and simultaneously pump protons across the membrane.  The superfamily is ...;end_range=219,.;gbkey=Region;partial=true
+ACY09539.1	Genbank	region	12	219	.	+	.	ID=id-ACY09539.1:12..219;Dbxref=CDD:278541;Note=Cytochrome C and Quinol oxidase polypeptide I;end_range=219,.;gbkey=Region;partial=true
+ACY09539.1	Genbank	region	17	17	.	+	.	ID=id-ACY09539.1:17..165;Dbxref=CDD:238461;Note=D-pathway;gbkey=Site;is_ordered=true;part=1/8
+ACY09539.1	Genbank	region	78	78	.	+	.	ID=id-ACY09539.1:17..165;Dbxref=CDD:238461;Note=D-pathway;gbkey=Site;is_ordered=true;part=2/8
+ACY09539.1	Genbank	region	89	89	.	+	.	ID=id-ACY09539.1:17..165;Dbxref=CDD:238461;Note=D-pathway;gbkey=Site;is_ordered=true;part=3/8
+ACY09539.1	Genbank	region	96	96	.	+	.	ID=id-ACY09539.1:17..165;Dbxref=CDD:238461;Note=D-pathway;gbkey=Site;is_ordered=true;part=4/8
+ACY09539.1	Genbank	region	99	99	.	+	.	ID=id-ACY09539.1:17..165;Dbxref=CDD:238461;Note=D-pathway;gbkey=Site;is_ordered=true;part=5/8
+ACY09539.1	Genbank	region	154	155	.	+	.	ID=id-ACY09539.1:17..165;Dbxref=CDD:238461;Note=D-pathway;gbkey=Site;is_ordered=true;part=6/8
+ACY09539.1	Genbank	region	161	161	.	+	.	ID=id-ACY09539.1:17..165;Dbxref=CDD:238461;Note=D-pathway;gbkey=Site;is_ordered=true;part=7/8
+ACY09539.1	Genbank	region	165	165	.	+	.	ID=id-ACY09539.1:17..165;Dbxref=CDD:238461;Note=D-pathway;gbkey=Site;is_ordered=true;part=8/8
+
+##sequence-region ACY09484.1 1 194
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=683867
+ACY09484.1	Genbank	region	1	194	.	+	.	ID=ACY09484.1:1..194;Dbxref=taxon:683867,BOLD:DIMC094-09.COI-5P;Name=MT;collected-by=J.Straka%2C J.Cossey;collection-date=25-Jul-2008;country=Canada: Alberta%2C Waterton%2C Waterton Lakes Nat. Park - Summit Lake Trail%2C Subalpine forest/meadow;gbkey=Src;genome=mitochondrion;lat-lon=49.008 N 114.025 W;mol_type=unassigned;specimen-voucher=BIOUG<CAN>:DS-Test-094
+ACY09484.1	Genbank	region	1	194	.	+	.	ID=id-ACY09484.1:1..194;end_range=194,.;gbkey=Prot;partial=true;start_range=.,1
+ACY09484.1	Genbank	region	1	194	.	+	.	ID=id-ACY09484.1:1..194-2;Dbxref=CDD:294196;Note=Heme-copper oxidase subunit I.  Heme-copper oxidases are transmembrane protein complexes in the respiratory chains of prokaryotes and mitochondria which catalyze the reduction of O2 and simultaneously pump protons across the membrane.  The superfamily is ...;end_range=194,.;gbkey=Region;partial=true
+ACY09484.1	Genbank	region	12	194	.	+	.	ID=id-ACY09484.1:12..194;Dbxref=CDD:278541;Note=Cytochrome C and Quinol oxidase polypeptide I;end_range=194,.;gbkey=Region;partial=true
+ACY09484.1	Genbank	region	17	17	.	+	.	ID=id-ACY09484.1:17..165;Dbxref=CDD:238461;Note=D-pathway;gbkey=Site;is_ordered=true;part=1/8
+ACY09484.1	Genbank	region	78	78	.	+	.	ID=id-ACY09484.1:17..165;Dbxref=CDD:238461;Note=D-pathway;gbkey=Site;is_ordered=true;part=2/8
+ACY09484.1	Genbank	region	89	89	.	+	.	ID=id-ACY09484.1:17..165;Dbxref=CDD:238461;Note=D-pathway;gbkey=Site;is_ordered=true;part=3/8
+ACY09484.1	Genbank	region	96	96	.	+	.	ID=id-ACY09484.1:17..165;Dbxref=CDD:238461;Note=D-pathway;gbkey=Site;is_ordered=true;part=4/8
+ACY09484.1	Genbank	region	99	99	.	+	.	ID=id-ACY09484.1:17..165;Dbxref=CDD:238461;Note=D-pathway;gbkey=Site;is_ordered=true;part=5/8
+ACY09484.1	Genbank	region	154	155	.	+	.	ID=id-ACY09484.1:17..165;Dbxref=CDD:238461;Note=D-pathway;gbkey=Site;is_ordered=true;part=6/8
+ACY09484.1	Genbank	region	161	161	.	+	.	ID=id-ACY09484.1:17..165;Dbxref=CDD:238461;Note=D-pathway;gbkey=Site;is_ordered=true;part=7/8
+ACY09484.1	Genbank	region	165	165	.	+	.	ID=id-ACY09484.1:17..165;Dbxref=CDD:238461;Note=D-pathway;gbkey=Site;is_ordered=true;part=8/8
+
+##sequence-region QIE11161.1 1 219
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1407277
+QIE11161.1	Genbank	region	1	219	.	+	.	ID=QIE11161.1:1..219;Dbxref=taxon:1407277;Name=MT;gbkey=Src;genome=mitochondrion;isolate=ArRL3RT;mol_type=unassigned
+QIE11161.1	Genbank	region	1	219	.	+	.	ID=id-QIE11161.1:1..219;end_range=219,.;gbkey=Prot;partial=true;start_range=.,1
+
+##sequence-region QIE11160.1 1 219
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1168618
+QIE11160.1	Genbank	region	1	219	.	+	.	ID=QIE11160.1:1..219;Dbxref=taxon:1168618;Name=MT;gbkey=Src;genome=mitochondrion;isolate=AFL02RT;mol_type=unassigned
+QIE11160.1	Genbank	region	1	219	.	+	.	ID=id-QIE11160.1:1..219;end_range=219,.;gbkey=Prot;partial=true;start_range=.,1
+
+##sequence-region QIE11159.1 1 219
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1818615
+QIE11159.1	Genbank	region	1	219	.	+	.	ID=QIE11159.1:1..219;Dbxref=taxon:1818615;Name=MT;gbkey=Src;genome=mitochondrion;isolate=AML05TK;mol_type=unassigned
+QIE11159.1	Genbank	region	1	219	.	+	.	ID=id-QIE11159.1:1..219;end_range=219,.;gbkey=Prot;partial=true;start_range=.,1
+
