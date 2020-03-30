@@ -27,7 +27,7 @@ library(phylolm)
 library(nlme)
 library(caper)
 library(phylotaR)
-library('ctv')
+library(ctv)
 
 # Update major phylogenetics packages
 update.views('Phylogenetics')
