@@ -12,7 +12,7 @@
 # Clear memory
 rm(list=ls())
 
-# Set working directory (with the tree file and datamatrix)
+# Set working directory
 setwd("/Users/simontye/Documents/Research/Projects/Zygoptera/2020_Zygoptera")
 
 # Load packages
@@ -31,11 +31,8 @@ library('ctv')
 
 # Update major phylogenetics packages
 update.views('Phylogenetics')
-
-# Other
-#install.packages("treeman") # No longer on CRAN and required for phylotaR?
+#devtools::install_github('dombennett/treeman')
 #devtools::install_github(repo='ropensci/phylotaR', build_vignettes=TRUE)
-install.packages("phylotaR")
 
 # Load data
 tree    <- read.tree("coen_coi.tree")
@@ -97,14 +94,16 @@ watermites    <- compare$Watermites
 logweightencapsulation.pgls  <- pgls(log(weight) ~ encapsulation, cdat)
 logweightgregarines.pgls     <- pgls(log(weight) ~ gregarines, cdat)
 logweightwatermites.pgls     <- pgls(log(weight) ~ watermites, cdat)
+
 encapsulationgregarines.pgls <- pgls(encapsulation ~ gregarines, cdat) 
-encapsulationwatermites.pgls <- pgls(encapsulation~watermites, cdat)
-gregarineswatermites.pgls    <- pgls(gregarines~watermites, cdat)
+encapsulationwatermites.pgls <- pgls(encapsulation ~ watermites, cdat)
+gregarineswatermites.pgls    <- pgls(gregarines ~ watermites, cdat)
 
 # Summary of the different PGLS models
 summary(logweightencapsulation.pgls)
 summary(logweightgregarines.pgls)
 summary(logweightwatermites.pgls)
+
 summary(encapsulationgregarines.pgls)
 summary(encapsulationwatermites.pgls)
 summary(gregarineswatermites.pgls)

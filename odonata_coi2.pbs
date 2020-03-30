@@ -1,0 +1,19 @@
+#!/bin/bash
+
+#PBS -N odonata_coi2
+#PBS -q med12core
+#PBS -j oe
+#PBS -m abe
+#PBS -M simontye@uark.edu
+#PBS -o odonata_coi2.out
+#PBS -l nodes=1:ppn=12
+#PBS -l walltime=72:00:00
+
+cd /storage/simontye/2020_Zygoptera
+
+module load muscle/3.8.31
+module load iqtree/1.6.12
+
+muscle -in odonata_coi_20200328.fasta -out odonata_coi2_20200328.phy
+
+iqtree -s odonata_coi2_20200328.phy -nt 12

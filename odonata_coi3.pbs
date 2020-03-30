@@ -1,0 +1,19 @@
+#!/bin/bash
+
+#PBS -N odonata_coi3
+#PBS -q tiny16core
+#PBS -j oe
+#PBS -m abe
+#PBS -M simontye@uark.edu
+#PBS -o odonata_coi3.out
+#PBS -l nodes=1:ppn=16
+#PBS -l walltime=06:00:00
+
+cd /storage/simontye/2020_Zygoptera
+
+module load muscle/3.8.31
+module load iqtree/1.6.12
+
+muscle -in odonata_coi_20200328.fasta -out odonata_coi3_20200328.phy -maxhours 3
+
+iqtree -s odonata_coi3_20200328.phy -nt 16
