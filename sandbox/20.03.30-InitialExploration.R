@@ -9,6 +9,10 @@ t <- read.nexus("data/trees/tree.nex")
 #phy <- read.nexus("data/trees/Zygoptera_tree.nex")
 d <- read.csv("data/opdb.csv")
 
+black <- ifelse(d$body_colors == "black", 1, 0)
+plain <- ifelse(d$body_patterns == "plain", 1, 0)
+ephemeral <- ifelse(d$aquatic_habitats == "ephemeral", 1, 0)
+
 # create a dataset
 dat <- data.frame(
   sp = as.character(paste(d$Genus, d$Species, sep = "_")),
@@ -37,4 +41,13 @@ PolyPhy <- drop.tip(phy, phy$tip.label[!phy$tip.label %in% PolyDat$sp])
             ### ### ### model fitting ### ### ### 
 ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### 
 
-MK <- corHMM(phy = PolyPhy, data = PolyDat, rate.cat = 1)
+# plain vs ephemeral
+head(PolyDat[,-2])
+getStateMat4Dat(PolyDat[,-2])
+MK_plain <- corHMM(phy = PolyPhy, data = PolyDat[-2], rate.cat = 1)
+
+# black vs ephemeral
+head(PolyDat[,-3])
+getStateMat4Dat(PolyDat[,-3])
+MK_black <- corHMM(phy = PolyPhy, data = PolyDat[-3], rate.cat = 1)
+
