@@ -34,7 +34,7 @@ dat <- data.frame(
   ephemeral = ephemeral
 )
 
-# Remove pond and stream habitat types
+# Remove river and stream habitat types
 dat <- subset(dat, ephemeral!=2)
 
 # make sure phy and dataset are working with the same set of tips
