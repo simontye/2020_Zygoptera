@@ -14,6 +14,7 @@ cd /storage/simontye/2020_Zygoptera
 module load muscle/3.8.31
 module load iqtree/1.6.12
 
-muscle -in odonata_coi_20200328.fasta -out odonata_coi_20200328.phy
+muscle -in odonata_coi_20200328.fasta -out odonata_coi_20200328.afa -tree1 odonata_tree1_20200328.phy -tree2 odonata_tree2_20200328.phy -seqtype protein
 
-iqtree -s odonata_coi_20200328.phy -nt 16
+iqtree -s odonata_tree1_20200328.phy -nt 16
+iqtree -s odonata_tree2_20200328.phy -nt 16
