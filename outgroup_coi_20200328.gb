@@ -1,0 +1,61 @@
+LOCUS       MK185701                 646 bp    DNA     linear   INV 17-FEB-2020
+DEFINITION  Acrotelsella erniei cytochrome oxidase subunit 1 (COI) gene,
+            partial cds; mitochondrial.
+ACCESSION   MK185701
+VERSION     MK185701.1
+KEYWORDS    .
+SOURCE      mitochondrion Acrotelsella erniei
+  ORGANISM  Acrotelsella erniei
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta;
+            Zygentoma; Lepismatidae; Acrotelsella.
+REFERENCE   1  (bases 1 to 646)
+  AUTHORS   Smith,G.B., Mitchell,A., Lee,T.R.C. and Espinasa,L.
+  TITLE     DNA barcoding and integrative taxonomy of the Heterolepisma
+            sclerophylla species complex (Zygentoma: Lepismatidae:
+            Heterolepismatinae) and the description of two new species
+  JOURNAL   Rec. Aust. Mus. 71 (1), 1-32 (2019)
+REFERENCE   2  (bases 1 to 646)
+  AUTHORS   Smith,G.B., Mitchell,A., Lee,T.R. and Espinasa,L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-NOV-2018) Entomology and Arachnology, Australian
+            Museum, 1 William Street, DARLINGHURST, New South Wales 2010,
+            Australia
+FEATURES             Location/Qualifiers
+     source          1..646
+                     /organism="Acrotelsella erniei"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="gbs001438"
+                     /db_xref="BOLD:ZYI066-18.COI-5P"
+                     /db_xref="taxon:2707777"
+                     /country="Australia: Northern Territory, Mount Sonder"
+                     /lat_lon="23.5785 S 132.568 E"
+                     /collection_date="10-Jul-2009"
+                     /collected_by="GB Smith"
+                     /identified_by="Graeme B Smith"
+     gene            <1..>646
+                     /gene="COI"
+     CDS             <1..>646
+                     /gene="COI"
+                     /codon_start=2
+                     /transl_table=5
+                     /product="cytochrome oxidase subunit 1"
+                     /protein_id="QHZ87258.1"
+                     /translation="TMYLIFGAWAGMVGTSLSLLIRAEJGRPGSLIGDDQIYNVIVTA
+                     HAFIMIFFMVMPIMIGGFGNWLVPLMLGAPDMAFPRLNNMSFWLLPPSLTLLLTGSIV
+                     ESGAGTGWTVYPPLSAAIAHAGASVDLSIFSLHLAGVSSILGAVNFITTVINMRSPGM
+                     SMERVPLFTWSVVITAVLLLLSLPVLAGAITMLLTDRNLNTSFFDPAGGGDPILY"
+ORIGIN      
+        1 aactatatac ttaatttttg gggcatgggc cggaatagty ggaacctctt taagactcct
+       61 aattcgagca gaamttggac gtcctggaag tctcattggg gatgatcaaa tttataatgt
+      121 aattgtaact gcccacgcat ttattataat ttttttcata gttataccta tcataattgg
+      181 kggattcgga aattgattag ttcccctaat actgggcgct cctgacatag cattcccccg
+      241 actcaataac ataagctttt gattactccc cccttcccta actcttttat taactggaag
+      301 aattgtagaa agtggcgcag gtactggttg aacagtttat ccacctctat cagcagcaat
+      361 cgctcacgca ggagcctctg tcgacctatc aattttttcy ctacatctag caggagtttc
+      421 ttccatttta ggggctgtta attttattac cacagtaatt aacatacgct caccgggcat
+      481 atctatagaa cgagtccccc tatttacatg atcagttgtc attacagcag tacttcttct
+      541 gttatccctt ccagtattag caggtgcaat taccatacta ttaactgacc gaaacttaaa
+      601 tacttctttt tttgatcctg ccgggggagg tgaccccatt ctatac
+//
+

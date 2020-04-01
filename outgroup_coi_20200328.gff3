@@ -1,0 +1,6 @@
+##sequence-region MK185701.1 1 646
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2707777
+MK185701.1	Genbank	region	1	646	.	+	.	ID=MK185701.1:1..646;Dbxref=BOLD:ZYI066-18.COI-5P,taxon:2707777;Name=MT;collected-by=GB Smith;collection-date=10-Jul-2009;country=Australia: Northern Territory%2C Mount Sonder;gbkey=Src;genome=mitochondrion;identified-by=Graeme B Smith;lat-lon=23.5785 S 132.568 E;mol_type=genomic DNA;old-name=Acrotelsella ernei;specimen-voucher=gbs001438
+MK185701.1	Genbank	gene	1	646	.	+	.	ID=gene-COI;Name=COI;end_range=646,.;gbkey=Gene;gene=COI;gene_biotype=protein_coding;partial=true;start_range=.,1
+MK185701.1	Genbank	CDS	1	646	.	+	1	ID=cds-QHZ87258.1;Parent=gene-COI;Dbxref=NCBI_GP:QHZ87258.1;Name=QHZ87258.1;end_range=646,.;gbkey=CDS;gene=COI;partial=true;product=cytochrome oxidase subunit 1;protein_id=QHZ87258.1;start_range=.,1;transl_table=5
+
